@@ -1,0 +1,42 @@
+USEFUL GIT COMMANDS
+
+Steps :
+1. Create account on Github.
+2. Install Gitbash from git-scm.com
+3. Create new repository on Github.(+ sign and name, description)
+4. Create local folder.
+5. Open GIT Bash
+6. Initialize username
+       $ git config –global user.name “your-name” //user name of Github
+7. Initialize email
+       $ git config –global user.email “your-email” //email of Github
+8. Check registered
+       $ git config –list
+9. Create file/s in the folder
+       $ touch filename ( eg. file.txt)
+10. Create GIT repository in local folder
+       $ git init
+    Check in folder hidden file .git
+11. Check GIT status
+       $ git status
+12. If files are untracked(unstaged), files are shown in red color.
+13. To track(stage) files –
+       $ git add filename
+    Or
+       $ git add . //for all files
+    Files will be shown in ‘green’ color
+14. To commit files to local repository
+        $ git commit -m “commit name”
+        $ git status
+15. Modify file and repeat same procedure, check status repetitively.
+16. To modify file in Gitbash
+        $ nano file_name
+17. Check difference between latest 2 commits
+        $ git diff HEAD^ HEAD file_name
+18. To move the current commit from local repository to staged area
+        $ git reset ---soft HEAD~1 // 1 can be replaced by any no ‘n’
+19. ‘z’ or ‘q’ to stop log
+20. List commit history // SCREEN SHOT
+         $ git log
+21. To restore previous version
+         $ git checkout [commit_no]
