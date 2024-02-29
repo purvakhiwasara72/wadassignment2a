@@ -1,0 +1,14 @@
+PUSH files to remote repository on Github.
+
+1. Assign name to Github repository url.
+
+2. Git remote add origin url //origin is name of url
+
+3. Push the code/files to remote repository //SCREEN SHOT
+    $ git push -u origin master
+
+PULL/ FETCH files from remote repository
+
+   $ git pull = fetch + merge //changes are merged in local repository &amp; in working
+directory
+   $ git fetch // changes are fetched in local repository
